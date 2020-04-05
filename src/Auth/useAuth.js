@@ -34,6 +34,7 @@ export const PrivateRoute = ({ children, ...rest})=>{
   }
 const Auth = () => {
     const [user,setUser] = useState(null);
+    const [error,setError] = useState(null);
     useEffect(()=>{
         firebase.auth().onAuthStateChanged(function(user) {
             if (user) {
@@ -49,8 +50,10 @@ const Auth = () => {
             displayName: name
         })
         .then(res => {
-            setUser(res.user)
-            window.history.back();
+            if(res.user){
+                setUser(res.user)
+                window.history.back();
+            }
         })
     });
     }  
@@ -62,7 +65,10 @@ const Auth = () => {
             window.history.back();
             
         })
-        .catch(error=>console.log(error));
+        .catch(error=>{
+            console.log(error);
+            setError(error)
+        });
     }
     const signOut = ()=>{
         return firebase.auth().signOut()
@@ -71,6 +77,7 @@ const Auth = () => {
     }
     return {
         user,
+        error,
         signUp,
         signIn,
         signOut
