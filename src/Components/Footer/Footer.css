@@ -1,0 +1,10 @@
+footer img{
+    height: 50px;
+}
+footer  a{
+    color: #ffffff;
+    line-height: 2;
+}
+li{
+    list-style-type: none;
+}

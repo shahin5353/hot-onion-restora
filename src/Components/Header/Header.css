@@ -1,0 +1,23 @@
+.red-button{
+    background-color: #F91944;
+    color: #fff;
+    text-align: center;
+    width: 20vh;
+    border-radius: 30px;
+
+}
+.nav-item{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.badge{
+    font-size: 15px;
+}
+button{
+    border: none;
+    background-color: #fff;
+}
+button:focus{
+    outline: none;
+}

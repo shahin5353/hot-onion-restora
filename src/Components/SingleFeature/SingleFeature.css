@@ -1,0 +1,16 @@
+
+.feature-card img{
+    border-radius: 25px;
+    width: 80%;
+}
+.feature-card{
+    margin:0px 20px 5px 20px;
+}
+.feature-card:first-child{
+    margin: 0px 20px 5px 0px;
+}
+.see-more-btn{
+    background-color: #fff;
+    color: steelblue;
+    border: none;
+}

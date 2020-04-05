@@ -1,0 +1,18 @@
+
+.category-nav button{
+    border: none;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    display: block;
+}
+.category-nav .focus-button{
+   color: #F91944 ;
+   border-bottom: 3px solid #F91944;
+   outline:0;
+   border-radius: 50%;
+   
+}
+.category-nav button:hover{
+    color: #F91944 ;
+}

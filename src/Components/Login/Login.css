@@ -1,0 +1,26 @@
+.login{
+    background-image: url(../../images/bannerbackground.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+.login .logo img{
+    height: 80px;
+}
+.login  form{
+    max-width: 400px;
+    margin: 0 auto;
+}
+.login .form-control{
+    background:#f5f5f5;
+    border:none;
+    padding: 25px 15px !important;
+}
+.error{
+    color: red;
+}
+
+.login .option label{
+    color: red;
+    cursor: pointer;
+}

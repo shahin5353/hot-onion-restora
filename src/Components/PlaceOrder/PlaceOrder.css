@@ -1,0 +1,10 @@
+input{
+    color: #bb1919;
+}   
+.error{
+    color: red;
+}
+.cart-controller button{
+    font-weight: bolder;
+    font-size: 25px;
+}

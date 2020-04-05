@@ -1,0 +1,23 @@
+.quantity{
+    display: flex;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    align-items: center;
+    font-weight: bold;
+}
+.quantity button{
+    border: none;
+    cursor: pointer;
+    padding:0px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+*:focus{
+    box-shadow: none!important;
+}
+.add-button{
+    background-color: #F91944;
+    border-radius: 20px;
+    color: #fff;
+}
