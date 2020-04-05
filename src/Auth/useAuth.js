@@ -50,10 +50,8 @@ const Auth = () => {
             displayName: name
         })
         .then(res => {
-            if(res.user){
-                setUser(res.user)
-                window.history.back();
-            }
+            setUser(res.user)
+            window.history.back();
         })
     });
     }  
