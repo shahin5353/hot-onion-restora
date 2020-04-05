@@ -4,7 +4,7 @@ import './SingleItem.css'
 
 
 const SingleItem = (props) => {
-    const {name,price,img,description,key} = props.item;
+    const {_id,name,price,img,description,key} = props.item;
     return (
         <Link to={"/item/"+key} className="ml-5 mb-2">
         <div className="card text-center text-dark border-0 px-5 item-card pt-3" style={{width:'450px'}}>

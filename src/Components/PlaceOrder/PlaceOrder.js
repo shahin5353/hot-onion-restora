@@ -84,7 +84,7 @@ const PlaceOrder = (props) => {
                     <div className="text-center my-5"><img src={Spinner} alt="spinner"/></div>
                 }
                 {
-                    (cart.length) &&
+                     cart.length>0 &&
                     <div className="container mt-5">
                     <div className="row">
                     <div className="col-md-5 mr-5" style={{display: shipInfo && 'none'}}>
